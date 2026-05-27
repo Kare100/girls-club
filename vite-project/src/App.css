@@ -1,0 +1,268 @@
+*{
+  margin: 0px;
+
+
+
+}
+/*navigation style*/
+
+.navBar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: pink;
+  color: brown;
+  padding: 15px 20px; 
+}
+
+.topLogo{
+  width: 150px;
+  height: auto;
+
+  
+}
+.menuTop{
+  display: flex;
+  list-style: none;
+}
+
+.menuTop > li{
+  margin-right: 20px;
+
+}
+
+.menuTop > li:hover{
+
+  background-color: white;
+  color: black;
+  font-size: 1.1rem;
+  padding:10px;
+}
+
+/*banner style*/
+.banner{
+  width:100%;
+  height:500px;
+  overflow:hidden;
+  position:relative;
+}
+.imgBanner{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+.bannerText{
+  position: absolute;
+  top:90%;
+  left:50%;
+  color:white;
+  background-color: rgb(54,45,5,0.5);
+  text-align: center;
+  padding:20px 40px;
+  border-radius: 10px;
+  transform: translate(-50%,-50%)
+}
+
+/*Card Style*/
+
+
+/*card heading*/
+.cardTitle{
+  font-size: 32px;
+  margin-bottom:40px;
+}
+/* heading */
+
+/*FOOTER*/
+.footer{
+  background-color:black;
+  color:white;
+  text-align:center;
+  padding:20px;
+}
+/* Replace your Card and Container styles with this */
+
+.Services {
+  padding: 50px 20px;
+  background-color: #fff5f7; /* Soft light pink background */
+}
+
+.servicesTitle {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+  font-family: 'Times New Roman', serif;
+}
+
+/* This is the container holding the 3 cards */
+.serviceCards {
+  display: flex;
+  flex-direction: row; /* Forces horizontal row */
+  justify-content: center;
+  gap: 20px;          /* Space between boxes */
+  flex-wrap: wrap;    /* Allows them to wrap only on small phones */
+}
+
+/* Individual card style */
+.card {
+  background: white;
+  border: 1px solid #ffc1d6;
+  border-radius: 20px;
+  padding: 30px 20px; /* Reduced from 60px so they fit! */
+  width: 280px;       /* Fixed width for the "box" look */
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  border-color: #ff85a1;
+}
+.contact-section {
+  padding: 80px 20px;
+  background-color: #fff; /* Clean white contrast to the pink sections */
+  text-align: center;
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-subtitle {
+  margin-bottom: 30px;
+  color: #666;
+  font-style: italic;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 15px;
+  border: 1px solid #ffc1d6;
+  border-radius: 10px;
+  font-family: inherit;
+  outline: none;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+  border-color: #ff85a1;
+  box-shadow: 0 0 5px rgba(255, 133, 161, 0.2);
+}
+
+.contact-btn {
+  background-color: #ff85a1;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.contact-btn:active {
+  transform: scale(0.95); /* Shrinks slightly when pressed */
+  background-color: #e06a8a; /* Darkens the pink */
+}
+
+.contact-btn:hover {
+  filter: brightness(1.1);
+}
+
+.social-links {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  color: brown;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #ff85a1;
+  font-weight: bold;
+}
+/* Container for the whole page */
+.events-section {
+  padding: 120px 5% 60px;
+  background-color: #fff9fa; /* Soft pink tint */
+}
+
+/* The Grid Layout */
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The "Boxed" Event Card */
+.event-card {
+  background: white;
+  border-radius: 25px;
+  overflow: hidden; /* Keeps the image corners rounded */
+  box-shadow: 0 10px 30px rgba(255, 133, 161, 0.15);
+  transition: transform 0.3s ease;
+  border: 1px solid #ffe4eb;
+}
+
+.event-card:hover {
+  transform: translateY(-10px);
+}
+
+/* Image styling */
+.event-image-container {
+  position: relative;
+  height: 200px;
+}
+
+.event-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.event-badge {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: rgba(255, 133, 161, 0.9);
+  color: white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+/* Content Spacing */
+.event-content {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.event-content h3 {
+  color: #d85c7a;
+  margin-bottom: 10px;
+}
+
+.event-desc {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.5;
+  min-height: 50px; /* Keeps boxes aligned */
+}
+
+/* THE BUTTON SPACE YOU ASKED FOR */
+.event-btn {
+  margin-top: 25px; /* Creates that space btn text and button */
+  width: 100%;
+  cursor: pointer;
+}

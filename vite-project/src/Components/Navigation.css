@@ -1,0 +1,76 @@
+
+.navBar {
+  background-color: #1e293b; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+/* Change .nav-links to .menuTop to match your JSX <ul> */
+/* Remove all the red border debug code and use this: */
+
+.menuTop {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  align-items: center;
+}
+
+.menuTop li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+/* The Hover Effect: Changes color and lifts slightly */
+.menuTop li a:hover {
+  color: #facc15; /* That yellow accent from your logo */
+  background-color: rgba(250, 204, 21, 0.1); /* Very subtle yellow glow */
+  transform: translateY(-3px);
+}
+
+/* Optional: Active link styling (shows which page you are on) */
+.menuTop li a:active {
+  transform: translateY(0);
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+  color: #facc15; /* yellow accent */
+  letter-spacing: 1px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+.nav-links a:hover {
+  background-color: #facc15;
+  color: #1e293b;
+  transform: translateY(-2px);
+}

@@ -1,0 +1,54 @@
+.signup-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh; /* Centers it vertically */
+  background-color: #fff; /* Clean white background */
+}
+
+.signup-card {
+  background: #fff5f7; /* Very light pink */
+  padding: 50px;
+  border-radius: 30px;
+  border: 2px solid #ffc1d6;
+  text-align: center;
+  width: 400px; /* Makes it bigger */
+  box-shadow: 0 10px 30px rgba(216, 27, 96, 0.1);
+}
+
+.signup-card h2 {
+  color: #d81b60; /* Deep pink */
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.signup-form input {
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px solid #ffc1d6;
+  font-size: 1rem;
+}
+
+.signup-form button {
+  background-color: #ffc1d6; /* Pink button */
+  color: #5d4037; /* Brown text */
+  border: none;
+  padding: 15px;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.signup-form button:hover {
+  background-color: #d81b60;
+  color: white;
+}
