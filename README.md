@@ -10,6 +10,15 @@ A community web app built for women to share skills, ideas, knowledge and wellne
 - Contact page
 - Sign up and login with data saved to a MongoDB database
 
+  Screenshots of the Platform:
+  <img width="1918" height="1019" alt="image" src="https://github.com/user-attachments/assets/2a1577f0-0888-480f-8e35-56c01c8ed34a" />
+  <img width="1919" height="959" alt="image" src="https://github.com/user-attachments/assets/fbe2e66e-16cf-4886-9a03-7ec0a52740f3" />
+<img width="1919" height="956" alt="image" src="https://github.com/user-attachments/assets/d3de687a-f038-4d89-ada3-05df086af746" />
+<img width="1918" height="956" alt="image" src="https://github.com/user-attachments/assets/fbc8bcb4-0fb5-45a6-b5a8-c5b9652bbbeb" />
+<img width="1919" height="943" alt="image" src="https://github.com/user-attachments/assets/d2b2e7db-f6ef-4c6f-a56d-9bcc03c5851c" />
+
+
+
 ## Tech stack
 
 Frontend: React, React Router, CSS
