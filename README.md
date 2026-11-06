@@ -1,5 +1,7 @@
 # Girls Club
 
+[![Build](https://github.com/Kare100/girls-club/actions/workflows/build.yml/badge.svg)](https://github.com/Kare100/girls-club/actions/workflows/build.yml)
+
 A community web app built for women to share skills, ideas, knowledge and wellness resources. This was a solo project I did in my second semester. Users can create an account, log in, browse club events and get in touch through the contact page.
 
 ## What it does
